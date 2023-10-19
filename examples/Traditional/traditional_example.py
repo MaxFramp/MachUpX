@@ -16,7 +16,7 @@ import machupX as MX
 # Input the json module to make displaying dictionaries more friendly
 import json
 
-if __name__=="__main__":
+if __name__ == "__main__":
 
     # Define the input file. The input file will contain the path to the aircraft
     # file, and so this does not need to be defined here.

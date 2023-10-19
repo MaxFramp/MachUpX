@@ -130,3 +130,9 @@ pro_input*
 unique_name*
 gamma_dist.txt
 :00.bl
+
+# macos files
+.DS_Store
+
+# PyCharm Config files
+.idea/*

@@ -30,7 +30,7 @@ def test_main():
         json.dump(input_dict, new_input_handle, indent=4)
 
     # Run MachUp
-    sp.run(["python", "-m", "machupX", altered_input_name])
+    sp.run(["python3", "-m", "machupX", altered_input_name])
 
     # Check the proper files have been created
     assert os.path.exists(altered_input_name.replace(".json", "_solve_forces.json"))
