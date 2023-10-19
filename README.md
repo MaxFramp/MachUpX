@@ -1,4 +1,10 @@
-# MachUpX
+# A Note for this fork:
+The intention of making this fork is to have a repository that includes the airfoil_db dependency. Some small changes have also been made to help it run on a newer Python release. Any other significant changes will be detailed when they occur.
+
+## OS Notes:
+This fork has been written in PyCharm on MacOS Sonoma with the M1 chip. I have not tested it on any other OS or architecture.
+
+## MachUpX
 An implementation of the Goates-Hunsaker method for solving the general numerical lifting-line problem. This method has been developed in recent years based on the original numerical liting-line method developed by Phillips and Snyder. The main reference for the Goates-Hunsaker method is:
 
 C. D. Goates and D. F. Hunsaker, "Practical Implementation of a General Numerical Lifting-Line Theory," *AIAA SciTech Forum*, Virtual Event, 2021.
